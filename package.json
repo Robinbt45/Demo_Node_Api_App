@@ -1,0 +1,37 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "api_forever": "forever --spinSleepTime 3000 --minUptime 1000 -o out.log -e err.log -c 'nodemon --exitcrash --exec node ' api.js",
+    "api": "pm2 start api.js -o out.log -e err.log --no-daemon --kill-timeout 12000 --name 'api'",
+    "lint": "node_modules/jshint/bin/jshint apis"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-body": "^4.0.0",
+    "co-each": "^0.1.0",
+    "co-exec": "^1.1.0",
+    "co-fs": "^1.2.0",
+    "co-fs-plus": "^0.3.1",
+    "co-parallel": "^1.0.0",
+    "co-sleep": "0.0.1",
+    "jshint": "^2.9.5",
+    "koa": "^1.1.2",
+    "koa-body": "^1.3.0",
+    "koa-compress": "^1.0.8",
+    "koa-cors": "0.0.16",
+    "koa-logger": "^1.3.0",
+    "koa-router": "^5.2.3",
+    "koa-static": "^1.5.2",
+    "lodash": "^4.17.5",
+    "path": "^0.12.7",
+    "raw-body": "^2.1.4",
+    "readyness": "^0.1.0",
+    "request": "^2.85.0",
+    "request-debug": "^0.2.0",
+    "thunkify": "^2.1.2",
+    "unzip": "^0.1.11"
+  }
+}

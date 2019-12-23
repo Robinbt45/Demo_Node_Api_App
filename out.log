@@ -1,0 +1,189 @@
+Listening on port 3100
+Inited app
+  <-- GET /
+  --> GET / 404 10ms -
+  <-- GET /favicon.ico
+  --> GET /favicon.ico 404 1ms -
+  <-- GET /contacts
+  xxx GET /contacts 400 3ms -
+  <-- GET /contacts?size=10
+  xxx GET /contacts?size=10 400 1ms -
+  <-- GET /contacts?size=10&from=1
+  --> GET /contacts?size=10&from=1 200 2,854ms 671b
+  <-- GET /contacts?size=10&from=1
+  --> GET /contacts?size=10&from=1 200 2,327ms 671b
+  <-- GET /contacts?size=10&from=1
+  --> GET /contacts?size=10&from=1 200 2,191ms 671b
+Listening on port 3100
+Inited app
+  <-- GET /contacts?size=10&from=1
+  --> GET /contacts?size=10&from=1 200 1,933ms 1.75kb
+  <-- GET /contacts/allisterdaniels
+  --> GET /contacts/allisterdaniels 200 2,106ms 798b
+  <-- GET /contacts/allisterdaniels
+  --> GET /contacts/allisterdaniels 200 1,469ms 798b
+Listening on port 3100
+Inited app
+  <-- GET /contacts/test
+  xxx GET /contacts/test 500 2,497ms -
+Listening on port 3100
+Inited app
+  <-- GET /contacts/test
+  xxx GET /contacts/test 500 1,772ms -
+Listening on port 3100
+Inited app
+  <-- GET /contacts/test
+  --> GET /contacts/test 500 1,899ms 2b
+Listening on port 3100
+Inited app
+  <-- GET /contacts/test
+  --> GET /contacts/test 500 2,375ms 32b
+  <-- GET /contactsbug
+  xxx GET /contactsbug 500 2,243ms -
+  <-- GET /contacts/test
+  --> GET /contacts/test 500 1,598ms 32b
+  <-- GET /contactsbug
+  xxx GET /contactsbug 500 1,447ms -
+Listening on port 3100
+Inited app
+  <-- GET /contactsbug
+{}
+  --> GET /contactsbug 500 2,064ms 89b
+Listening on port 3100
+Inited app
+  <-- GET /contactsbug
+  --> GET /contactsbug 500 2,167ms 63b
+  <-- GET /contacts/test
+  --> GET /contacts/test 500 1,534ms 32b
+Listening on port 3100
+Inited app
+  <-- GET /bug1
+  --> GET /bug1 404 11ms -
+  <-- GET /bug1
+  --> GET /bug1 404 1ms -
+  <-- POST /bug1
+  xxx POST /bug1 500 1ms -
+  <-- POST /bug1
+  xxx POST /bug1 500 0ms -
+  <-- POST /bug1
+  xxx POST /bug1 500 0ms -
+Listening on port 3100
+Inited app
+  <-- POST /bug1
+  --> POST /bug1 500 13ms 42b
+  <-- POST /bug2
+  --> POST /bug2 500 2ms 42b
+  <-- POST /bug3
+  --> POST /bug3 500 1ms 42b
+Listening on port 3100
+Inited app
+  <-- GET /jobs?size=10&from=1
+  --> GET /jobs?size=10&from=1 404 12ms -
+  <-- GET /jobs?size=10&from=1
+  --> GET /jobs?size=10&from=1 404 2ms -
+Listening on port 3100
+Inited app
+  <-- GET /jobs?size=10&from=1
+  --> GET /jobs?size=10&from=1 200 2,177ms 574b
+  <-- GET /jobs/westgate
+  --> GET /jobs/westgate 200 1,591ms 24b
+  <-- GET /jobs/search?title=test
+  --> GET /jobs/search?title=test 200 2,299ms 24b
+  <-- GET /jobs/lefei
+lefei
+  --> GET /jobs/lefei 500 1,046ms 11b
+  <-- GET /jobs/test
+test
+  --> GET /jobs/test 500 2,222ms 11b
+Listening on port 3100
+Inited app
+  <-- GET /jobs/lefei
+lefei
+  --> GET /jobs/lefei 500 2,342ms 11b
+  <-- GET /jobs/lefei
+lefei
+  --> GET /jobs/lefei 500 1,801ms 11b
+Listening on port 3100
+Inited app
+  <-- GET /jobs/westgate
+  --> GET /jobs/westgate 200 1,425ms 80b
+  <-- GET /jobs/Luis%20Miguel
+Luis Miguel
+  --> GET /jobs/Luis%20Miguel 500 1,074ms 11b
+  <-- GET /jobs/search?title=Luis%20Miguel
+  --> GET /jobs/search?title=Luis%20Miguel 200 2,624ms 24b
+  <-- GET /jobs/search?title=Luis
+  --> GET /jobs/search?title=Luis 200 1,881ms 24b
+  <-- GET /jobs/search?title=luis
+  --> GET /jobs/search?title=luis 200 1,855ms 24b
+Listening on port 3100
+Inited app
+  <-- GET /jobs/search?title=luis
+{ title: 'luis' }
+  --> GET /jobs/search?title=luis 200 2,693ms 24b
+Listening on port 3100
+Inited app
+  <-- GET /jobs?size=10&from=1
+  --> GET /jobs?size=10&from=1 200 1,933ms 574b
+Listening on port 3100
+Inited app
+  <-- GET /jobs?size=10&from=1
+  --> GET /jobs?size=10&from=1 200 2,166ms 1.71kb
+  <-- GET /jobs?size=100&from=1
+  --> GET /jobs?size=100&from=1 200 3,098ms 7.25kb
+  <-- GET /jobs/24
+24
+  --> GET /jobs/24 500 1,211ms 11b
+  <-- GET /jobs/62be8349a58842538db5628f811d7343
+62be8349a58842538db5628f811d7343
+  --> GET /jobs/62be8349a58842538db5628f811d7343 200 2,260ms 604b
+Listening on port 3100
+Inited app
+  <-- POST /unzip
+  --> POST /unzip 404 8ms -
+  <-- GET /unzip
+  --> GET /unzip 200 41ms 409b
+Listening on port 3100
+Inited app
+  <-- GET /
+  --> GET / 404 87ms -
+  <-- GET /favicon.ico
+  --> GET /favicon.ico 404 2ms -
+  <-- GET /api
+  --> GET /api 404 2ms -
+  <-- GET /contacts
+  xxx GET /contacts 400 4ms -
+  <-- GET /apis
+  --> GET /apis 404 3ms -
+  <-- GET /apis/
+  --> GET /apis/ 404 4ms -
+  <-- GET /apis/contacts
+  --> GET /apis/contacts 404 4ms -
+  <-- GET /jobs
+  xxx GET /jobs 400 34ms -
+Listening on port 3100
+Inited app
+  <-- GET /jobs
+  xxx GET /jobs 400 13ms -
+  <-- GET /jobs/2
+  --> GET /jobs/2 500 2,815ms 11b
+  <-- GET /contacts
+  xxx GET /contacts 400 1ms -
+  <-- GET /contacts
+  xxx GET /contacts 400 0ms -
+  <-- GET /contacts
+  xxx GET /contacts 400 1ms -
+  <-- GET /contacts
+  xxx GET /contacts 400 0ms -
+  <-- POST /contacts
+  --> POST /contacts 404 1ms -
+  <-- GET /contacts?size=10&from=1
+  --> GET /contacts?size=10&from=1 200 1,399ms 672b
+  <-- GET /contacts?size=10&from=1
+  --> GET /contacts?size=10&from=1 200 1,038ms 672b
+  <-- GET /contacts?size=5&from=1
+  --> GET /contacts?size=5&from=1 200 807ms 387b
+Listening on port 3100
+Inited app
+  <-- GET /jobs?size=5&from=1
+  --> GET /jobs?size=5&from=1 200 1,173ms 299b

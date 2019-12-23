@@ -1,0 +1,176 @@
+
+  InternalServerError: "This record could not be found"
+      at Object.throw (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/koa/lib/context.js:89:23)
+      at Object.handleResponseError (/Users/inder/Desktop/ITech/interview-exercises-node-api/libs/response-helper.js:43:21)
+      at Object.getContact (/Users/inder/Desktop/ITech/interview-exercises-node-api/apis/contacts-handler.js:113:24)
+      at getContact.throw (<anonymous>)
+      at onRejected (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:81:24)
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:188:7)
+
+
+  Error: "This record could not be found"
+      at Request._callback (/Users/inder/Desktop/ITech/interview-exercises-node-api/libs/helper.js:17:27)
+      at Request.self.callback (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/request/request.js:186:22)
+      at emitTwo (events.js:125:13)
+      at Request.emit (events.js:213:7)
+      at Request.<anonymous> (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/request/request.js:1163:10)
+      at emitOne (events.js:115:13)
+      at Request.emit (events.js:210:7)
+      at IncomingMessage.<anonymous> (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/request/request.js:1085:12)
+      at Object.onceWrapper (events.js:314:30)
+      at emitNone (events.js:110:20)
+
+
+  Error: "Filter syntax error: Unexpected token i in JSON at position 0"
+      at Request._callback (/Users/inder/Desktop/ITech/interview-exercises-node-api/libs/helper.js:17:27)
+      at Request.self.callback (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/request/request.js:186:22)
+      at emitTwo (events.js:125:13)
+      at Request.emit (events.js:213:7)
+      at Request.<anonymous> (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/request/request.js:1163:10)
+      at emitOne (events.js:115:13)
+      at Request.emit (events.js:210:7)
+      at IncomingMessage.<anonymous> (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/request/request.js:1085:12)
+      at Object.onceWrapper (events.js:314:30)
+      at emitNone (events.js:110:20)
+
+
+  Error: "Filter syntax error: Unexpected token i in JSON at position 0"
+      at Request._callback (/Users/inder/Desktop/ITech/interview-exercises-node-api/libs/helper.js:17:27)
+      at Request.self.callback (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/request/request.js:186:22)
+      at emitTwo (events.js:125:13)
+      at Request.emit (events.js:213:7)
+      at Request.<anonymous> (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/request/request.js:1163:10)
+      at emitOne (events.js:115:13)
+      at Request.emit (events.js:210:7)
+      at IncomingMessage.<anonymous> (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/request/request.js:1085:12)
+      at Object.onceWrapper (events.js:314:30)
+      at emitNone (events.js:110:20)
+
+
+  TypeError: bugsHandler.postBug is not a function
+      at Object.postBug1 (/Users/inder/Desktop/ITech/interview-exercises-node-api/apis/bugs-route.js:18:23)
+      at postBug1.next (<anonymous>)
+      at onFulfilled (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:65:19)
+      at /Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:54:5
+      at Promise (<anonymous>)
+      at Object.co (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:50:10)
+      at Object.toPromise (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:118:63)
+      at next (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:99:29)
+      at onFulfilled (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:69:7)
+      at /Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:54:5
+
+
+  TypeError: bugsHandler.postBug is not a function
+      at Object.postBug1 (/Users/inder/Desktop/ITech/interview-exercises-node-api/apis/bugs-route.js:18:23)
+      at postBug1.next (<anonymous>)
+      at onFulfilled (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:65:19)
+      at /Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:54:5
+      at Promise (<anonymous>)
+      at Object.co (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:50:10)
+      at Object.toPromise (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:118:63)
+      at next (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:99:29)
+      at onFulfilled (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:69:7)
+      at /Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:54:5
+
+
+  TypeError: bugsHandler.postBug is not a function
+      at Object.postBug1 (/Users/inder/Desktop/ITech/interview-exercises-node-api/apis/bugs-route.js:18:23)
+      at postBug1.next (<anonymous>)
+      at onFulfilled (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:65:19)
+      at /Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:54:5
+      at Promise (<anonymous>)
+      at Object.co (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:50:10)
+      at Object.toPromise (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:118:63)
+      at next (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:99:29)
+      at onFulfilled (/Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:69:7)
+      at /Users/inder/Desktop/ITech/interview-exercises-node-api/node_modules/co/index.js:54:5
+
+Error: Cannot find module 'adm-zip'
+    at Function.Module._resolveFilename (module.js:527:15)
+    at Function.Module._load (module.js:476:23)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/inder/Desktop/ITech/interview-exercises-node-api/apis/unzip-handler.js:2:14)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+Error: Cannot find module 'adm-zip'
+    at Function.Module._resolveFilename (module.js:527:15)
+    at Function.Module._load (module.js:476:23)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/inder/Desktop/ITech/interview-exercises-node-api/apis/unzip-handler.js:2:14)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+Error: Cannot find module 'adm-zip'
+    at Function.Module._resolveFilename (module.js:527:15)
+    at Function.Module._load (module.js:476:23)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/inder/Desktop/ITech/interview-exercises-node-api/apis/unzip-handler.js:2:14)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+Error: Cannot find module 'adm-zip'
+    at Function.Module._resolveFilename (module.js:527:15)
+    at Function.Module._load (module.js:476:23)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/inder/Desktop/ITech/interview-exercises-node-api/apis/unzip-handler.js:2:14)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+Error: Cannot find module 'adm-zip'
+    at Function.Module._resolveFilename (module.js:527:15)
+    at Function.Module._load (module.js:476:23)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/inder/Desktop/ITech/interview-exercises-node-api/apis/unzip-handler.js:2:14)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+Error: Cannot find module 'adm-zip'
+    at Function.Module._resolveFilename (module.js:527:15)
+    at Function.Module._load (module.js:476:23)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/inder/Desktop/ITech/interview-exercises-node-api/apis/unzip-handler.js:2:14)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+Error: Cannot find module 'adm-zip'
+    at Function.Module._resolveFilename (module.js:527:15)
+    at Function.Module._load (module.js:476:23)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/inder/Desktop/ITech/interview-exercises-node-api/apis/unzip-handler.js:2:14)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+Error: Cannot find module 'adm-zip'
+    at Function.Module._resolveFilename (module.js:527:15)
+    at Function.Module._load (module.js:476:23)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/inder/Desktop/ITech/interview-exercises-node-api/apis/unzip-handler.js:2:14)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)

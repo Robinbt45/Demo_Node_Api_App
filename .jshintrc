@@ -1,0 +1,36 @@
+{
+  "node": true,
+  "esnext": true,
+  "bitwise": true,
+  "camelcase": false,
+  "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "indent": 2,
+  "latedef": "nofunc",
+  "noarg": true,
+  "quotmark": "single",
+  "regexp": true,
+  "undef": true,
+  "newcap": false,
+  "unused": true,
+  "strict": true,
+  "trailing": true,
+  "smarttabs": true,
+  "white": true,
+  "noyield": true,
+  "proto": true,
+  //    "maxcomplexity": 15,
+  "globals": {
+    /* MOCHA */
+    "describe": false,
+    "it": false,
+    "before": false,
+    "beforeEach": false,
+    "after": false,
+    "afterEach": false,
+    "Promise": true,
+    "next": false,
+    "emit": true
+  }
+}
